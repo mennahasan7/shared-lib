@@ -1,5 +1,5 @@
-def {
- pipeline {
+def call() {
+  pipeline {
     agent { label 'slave' }
     
     stages {
